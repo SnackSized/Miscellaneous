@@ -1,2 +1,4 @@
 # Miscellaneous
-Here goes some old and some new stuff, check readme... 
+Here goes some old and some new stuff:
+
+TBA
