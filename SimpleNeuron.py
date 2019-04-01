@@ -1,4 +1,4 @@
-### Sololearn ML tutorial with minor modifications...##
+### some old ML tutorial with minor modifications...##
 
 from numpy import exp, array, random, dot
 
@@ -39,7 +39,7 @@ neural_network = neural_network()
 
 
 
-# The training set: (a+b)^2
+# The training set: 
 
 inputs = array([[2, 3], [1, 1], [5, 2], [12, 3]]) ##input 
 
@@ -49,10 +49,10 @@ outputs = array([[10, 4, 14, 30]]).T
 
 # Training the neural network using the training set.
 
-neural_network.train(inputs, outputs, 100000)
+neural_network.train(inputs, outputs, 1000)
 
 
 
-# Ask the neural network the output
+# Ask the neural network the output of (a+b)*2 
 
 print(neural_network.think(array([15, 2])))
